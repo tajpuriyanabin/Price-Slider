@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Customizable Price Range Slider</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="branding">
+            <p>Price Finder</p>
+        </div>
+        <div class="slider-wrapper">
+
+            <div class="header">
+                <h2 class="project-title">
+                    Adjustable Price Range Slider
+                </h2>
+            </div>
+
+            <div class="input-container">
+                <div class="input-field">
+                    <span>Minimum Price</span>
+                    <input type="number" class="min-input" value="2000">
+                </div>
+                <div class="input-field">
+                    <span>Maximum Price</span>
+                    <input type="number" class="max-input" value="9000">
+                </div>
+            </div>
+            <div class="slider-box">
+                <div class="price-slider">
+                </div>
+            </div>
+
+            <!-- Slider -->
+            <div class="range-inputs">
+                <input type="range" class="min-slider" min="0" max="10000" value="2000" step="1">
+                <input type="range" class="max-slider" min="0" max="10000" value="9000" step="1">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
